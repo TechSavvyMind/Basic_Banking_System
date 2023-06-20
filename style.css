@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}body {
+    font-family: sans-serif;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 8px;
+  }
+  
+  th {
+    text-align: left;
+    background-color: #dddddd;
+    font-weight: bold;
+    color: black;
+  }
+  
+  td {
+    text-align: left;
+    color: black;
+    font-size: 14px;
+  }
+  
+  .table-container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .table-container {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 360px) {
+    .table-container {
+      width: 50%;
+    }
+  }
