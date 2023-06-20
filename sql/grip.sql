@@ -1,3 +1,5 @@
+This is the existing Database name which consist of tables 'customers' and 'transactions' . The 2 tables sql files are given in the tha sql folder kindly check it out........
+
 -- phpMyAdmin SQL Dump
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
